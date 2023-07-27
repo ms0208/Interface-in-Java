@@ -4,9 +4,12 @@ import java.util.*;
 
 interface client 
 {
+
     void get();
+    
     void display();
 };
+
 class IFimplementsclient
 {
     int a,b;
