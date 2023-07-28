@@ -16,6 +16,7 @@ class IFimplementsclient
     
     void get()
     {
+    
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter your id:");
@@ -26,8 +27,10 @@ class IFimplementsclient
         
         b = sc.nextInt();
     }
+    
     void display()
     {
+    
         System.out.println("Your ID is: "+a);
         
         System.out.println("Enter Date of Birth is: "+b);
